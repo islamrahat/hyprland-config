@@ -29,10 +29,12 @@
             "",
             "",
             ""
-        ]
+        ],
+        "tooltip-format": "{capacity}%\n{time}"
     },
     "clock": {
-        "format-alt": "{:%a, %d. %b  %H:%M}"
+	"format": "{:%I:%M %p}",
+    	"format-alt": "{:%a, %d. %b %I:%M %p}"
     },
     "pulseaudio": {
         "format": "{icon}",
